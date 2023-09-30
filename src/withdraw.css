@@ -1,0 +1,38 @@
+.wdhead{
+    margin:4% 0 0 33%;
+     font-Family:unset;
+     font-Weight: bold;
+     color: cadetblue;
+     
+}
+.wdform{
+    margin:2% 0 0 35%;
+    
+}
+
+.wdbalance{
+    margin:0 0 0 35.5%;
+    
+}
+@media (max-width:768px){
+    .wdhead{
+        margin: 5% auto;
+    }
+    .wdform{
+        margin: 5% auto;
+    }
+    .wdbalance{
+        margin: 5% auto;
+    }
+}
+@media only screen and (max-width:320px){
+    .wdthead{
+        margin: 5% auto;
+    }
+    .wdform{
+        margin: 5% auto;
+    }
+    .wdbalance{
+        margin: 1% auto;
+    }
+}

@@ -1,0 +1,38 @@
+.deposithead{
+    margin:4% 0 0 33%;
+     font-Family:unset;
+     font-Weight: bold;
+     color: cadetblue;
+     
+}
+.depositform{
+    margin:2% 0 0 35%;
+    
+}
+
+.depositbalance{
+    margin:0 0 0 35.5%;
+    
+}
+@media (max-width:768px){
+    .deposithead{
+        margin: 5% auto;
+    }
+    .depositform{
+        margin: 5% auto;
+    }
+    .depositbalance{
+        margin: 5% auto;
+    }
+}
+@media only screen and (max-width:320px){
+    .deposithead{
+        margin: 5% auto;
+    }
+    .depositform{
+        margin: 5% auto;
+    }
+    .depositbalance{
+        margin: 1% auto;
+    }
+}

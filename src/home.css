@@ -1,0 +1,54 @@
+.home{
+    width: 35%;
+    margin:2% 30%;
+
+}
+.title{
+    margin:3% 35%;
+    color:cadetblue;
+    font-Weight:bold;
+    font-size:200%
+}
+.text{
+    margin:2% 10%;
+    color:orangered;
+    font-Weight:bold;
+    font-Size:200%
+}
+.button{
+    margin:0 29%
+}
+@media (max-width:768px) {
+    .home{
+        width: 80%;
+        margin: 5% 10%;
+    }
+    .title{
+        margin: auto;
+    }
+    .text{
+        margin: auto;
+        font-size: 200%;
+    }
+    .button{
+        margin: auto;
+    }
+}
+@media (min-width:320px) and (max-width:480px) {
+    .home{
+        width: 80%;
+        margin: 5% 10%;
+
+    }
+    .title{
+        margin: auto;
+        
+    }
+    .text{
+        margin: auto;
+        font-size: 135%;
+    }
+    .button{
+        margin: auto;
+    }
+}

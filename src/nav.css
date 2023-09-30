@@ -1,0 +1,23 @@
+
+nav{
+    padding: 20px 0 ;
+    margin: 0;
+    background-color: cadetblue;
+}
+bg-body-tertiary{
+    padding: 20px 0;
+}
+nav a{
+    display: inline-block;
+    margin: 0 4.5%;
+    text-decoration: none;
+    font-style: inherit;
+    font-size: 130%;
+    color: beige;
+}
+nav a.active {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+  }
+
